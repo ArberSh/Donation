@@ -4,12 +4,18 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    max-width: 100vw;
+
+.green{
+    color: #b7ea8c;
 }
+/* 
+
+NAVIGATION BAR 
+
+*/
 
 .logo{
-    width: 65px;
+    height: 12vh;
 }
 
 a{
@@ -18,9 +24,9 @@ a{
 
 nav {
     position: relative;
-    height: 80px;
+    height: 14vh;
     display: flex;
-    background-color: #b7ea8c;
+    background-color: #bfef97;
 }
 .nav_container{
     width: 100%;
@@ -45,4 +51,72 @@ li{
     color: #386641;
     font-weight: bold;
     padding: 8px;
+}
+.nav_link:hover {
+    text-decoration:underline;
+}
+
+/*
+
+HOME 
+
+*/
+.Container_Home {
+    background-image: linear-gradient(to top,#386641,transparent), url(/Images/Bg.jpg);
+    height:86vh;
+    width:100%; 
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20vh;
+}
+
+.Home_Title{
+    text-align: center;
+    color: white;
+}
+.Home_Title h1{
+    margin-bottom:1vh;
+    font-size: 50px;
+}
+
+.Home_Title h4{
+    font-size: 20px;
+}
+
+.but{
+    margin-top: 4vh;
+}
+
+button{
+    width: 22vh;
+    height: 6vh;
+    border:none;
+    border-radius: 6px;
+    font-weight: 650;
+    transition: 0.3s;
+}
+
+.donate{
+    background-color: #e2ffca;
+    color: #386641;
+    border:solid 1px;
+    font-size: 16px;
+
+}
+
+.join{
+    color: #6A994E;
+    border:#6A994E 1px solid;
+    font-size: 16px;
+}
+
+
+.donate:hover{
+    background-color:#6A994E;
+    color: white;
+    border: #cbf1ac;
+    z-index: -1;
+    transition: all 0.5s;
 }

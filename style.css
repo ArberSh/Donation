@@ -15,7 +15,7 @@ NAVIGATION BAR
 */
 
 .logo{
-    height: 12vh;
+    height: 11vh;
 }
 
 a{
@@ -24,9 +24,9 @@ a{
 
 nav {
     position: relative;
-    height: 14vh;
+    height: 13vh;
     display: flex;
-    background-color: #bfef97;
+    background-color: #f6f6f6;
 }
 .nav_container{
     width: 100%;
@@ -48,7 +48,7 @@ li{
     margin: 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #386641;
+    color: #6A994E;
     font-weight: bold;
     padding: 8px;
 }
@@ -62,8 +62,8 @@ HOME
 
 */
 .Container_Home {
-    background-image: linear-gradient(to top,#386641,transparent), url(/Images/Bg.jpg);
-    height:86vh;
+    background-image: linear-gradient(to top,#0050047a,transparent), url(/Images/Bg.jpg);
+    height:87vh;
     width:100%; 
     background-size: cover;
     display:flex;
@@ -90,33 +90,50 @@ HOME
 }
 
 button{
-    width: 22vh;
-    height: 6vh;
+    width: 24vh;
+    height: 8vh;
     border:none;
-    border-radius: 6px;
+    border-radius: 16px;
     font-weight: 650;
-    transition: 0.3s;
+    cursor: pointer;
 }
 
 .donate{
-    background-color: #e2ffca;
-    color: #386641;
-    border:solid 1px;
-    font-size: 16px;
+    color: #6A994E;
+    font-size: 18px;
 
 }
 
 .join{
     color: #6A994E;
-    border:#6A994E 1px solid;
-    font-size: 16px;
+    font-size: 18px;
+    margin-left:4vh;
 }
 
 
 .donate:hover{
-    background-color:#6A994E;
-    color: white;
+    background-color:#d7f3bf;
     border: #cbf1ac;
-    z-index: -1;
-    transition: all 0.5s;
+}
+
+.join:hover{
+    background-color:#e1e1e1;
+    border: #cbf1ac;
+}
+
+/*
+
+ABOUT US 
+
+*/
+
+.Container_About {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    width: 80vh;
+    height: 100%;
 }

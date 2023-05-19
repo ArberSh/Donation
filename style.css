@@ -128,12 +128,32 @@ ABOUT US
 */
 
 .Container_About {
+    margin-top:16vh;
     display:flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
+    margin-bottom:16vh ;
 }
 
 .about{
+    margin-left: 8vh;
     width: 80vh;
     height: 100%;
+    border-radius: 16px;
+}
+
+.Description {
+    padding: 0 15vh 0 0;
+    width: 80vh;
+    margin-left: 20vh;
+    font-weight: 600;
+}
+
+.Description h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.Description p{
+    font-size: 18px;
 }

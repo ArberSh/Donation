@@ -157,3 +157,15 @@ ABOUT US
 .Description p{
     font-size: 18px;
 }
+
+.Container_Donate{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.Tree{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+}

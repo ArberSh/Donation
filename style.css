@@ -159,13 +159,84 @@ ABOUT US
 }
 
 .Container_Donate{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     display:flex;
     justify-content:space-around;
     align-items: center;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
 .Tree{
-    width: 500px;
-    height: 100px;
-    background-color: red;
+    width: 90vh;
+    height: 85vh;
+    background-image: linear-gradient(to top,#0050047a,transparent), url(/Images/plants.jpg);
+    background-size: cover;
+    border-radius: 18px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 50px;
+    transition:0.5ms;
+}
+.Tree h1{
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+    font-size:34px;
+    transition: all 0.3s;
+}
+
+.Tree p{
+    opacity: 0;
+    font-size: 18px;
+    font-weight: 480;
+    margin-bottom: 4vh;
+    transition: 0.3s;
+}
+.Tree button{
+    opacity: 0;
+    background-color: transparent;
+    border: solid white 2px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    width: 20vh;
+    height: 8vh;
+}
+
+.Tree:hover{
+    background-image: linear-gradient(to top,#003603a6,transparent), url(/Images/plants.jpg);
+}
+
+.Tree:hover h1{
+    margin-top: 5vh;
+}
+
+.Tree:hover p{
+    opacity: 1;
+}
+
+.Tree:hover button{
+    opacity: 1;
+}
+
+.ButTree:hover{
+    background-color: white;
+    color: rgb(0, 90, 0);
+}
+.Ppl {
+    width: 90vh;
+    height: 85vh;
+    background-image: linear-gradient(to top,#bdbdbd7a,transparent), url(/Images/ChildInNeeds.jpg);
+    background-size: cover;
+    border-radius: 18px;
 }
